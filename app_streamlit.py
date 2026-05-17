@@ -59,10 +59,10 @@ st.set_page_config(
 # 3. PATH KONSTAN
 # =====================================================================
 BASE_DIR = Path(__file__).parent
-DATA_PATH = BASE_DIR / "data" / "bank-full.csv"
-NOTEBOOK_PATH = BASE_DIR / "notebook" / "notebook.html"
-MODEL_PATH = BASE_DIR / "model" / "model.pkl"
-PROFILE_PATH = BASE_DIR / "assets" / "profile.jpg"
+DATA_PATH = BASE_DIR / "bank-full.csv"
+NOTEBOOK_PATH = BASE_DIR / "notebook.html"
+MODEL_PATH = BASE_DIR / "model.joblib"
+PROFILE_PATH = BASE_DIR / "assets" / "profile.jpge"
 
 # =====================================================================
 # 4. CUSTOM CSS — TEMA PREMIUM NAVY / WHITE / DARK
