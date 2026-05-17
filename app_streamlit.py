@@ -10,13 +10,13 @@ Struktur folder yang direkomendasikan:
 .
 ├── app_streamlit.py
 ├── assets/
-│   └── profile.jpg          # Foto profil (upload manual)
+│   └── profile.jpeg          # Foto profil (upload manual)
 ├── data/
 │   └── bank-full.csv        # Dataset UCI Bank Marketing
 ├── notebook/
 │   └── notebook.html        # Hasil export Jupyter Notebook (HTML)
 ├── model/
-│   └── model.pkl            # Model terlatih (opsional)
+│   └── model_deposito.joblib            # Model terlatih (opsional)
 └── requirements.txt
 """
 
@@ -61,8 +61,8 @@ st.set_page_config(
 BASE_DIR = Path(__file__).parent
 DATA_PATH = BASE_DIR / "bank-full.csv"
 NOTEBOOK_PATH = BASE_DIR / "notebook.html"
-MODEL_PATH = BASE_DIR / "model.joblib"
-PROFILE_PATH = BASE_DIR / "assets" / "profile.jpge"
+MODEL_PATH = BASE_DIR / "model_deposito.joblib"
+PROFILE_PATH = BASE_DIR / "assets" / "profile.jpeg"
 
 # =====================================================================
 # 4. CUSTOM CSS — TEMA PREMIUM NAVY / WHITE / DARK
